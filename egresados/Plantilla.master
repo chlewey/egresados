@@ -1,0 +1,55 @@
+<%@ Master Language="C#" Inherits="egresados.Plantilla" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+  <meta charset="UTF-8">
+  <title>Master page title</title>
+  <link rel="stylesheet" type="text/css" href="Plantilla.css">
+</head>
+
+<body>
+  <form id="form1" runat="server">
+    <header id="cabezote_fac">
+      <div id="logo">
+        <a href="http://www.javeriana.edu.co">Pontificia Universidad Javeriana</a>
+      </div>
+
+      <div id="FormBusqueda">
+        <label for="busUltraSearch" class="buscar">Buscar:</label>
+        <input id="busUltraSearch" class="boton" type="text" onkeypress="return submitEnterBusqueda(event)" maxlength="30" size="23" name="p_mainsearch">
+        <label for="buscar" class="buscar">en:</label> <select id="buscar" class="boton" name="buscar">
+          <option value="laFacultad">
+            La Facultad
+          </option>
+          <option value="javeriana">
+            La Javeriana
+          </option>
+        </select>
+        <a onclick="iniciarBusquedaG();"><input height="18" border="0" align="bottom" width="18" type="image" src="http://puj-portal.javeriana.edu.co/portal/page/portal/Facultad%20de%20Ingenieria/1imagenes/lupa.gif" name="image"></a>
+        <input type="hidden" value="009119323151303871710:ppq9nuqynfm" name="cx">
+        <input type="hidden" value="FORID:11" name="cof"> <input id="q" type="hidden" size="25" name="q">
+      </div>
+
+      <h1 id="titulo_fac">Facultad de Ingeniería</h1>
+    </header>
+
+    <div id="contenido_fac">
+      <div id="fondo">
+        <!--#include file="_menubar.inc"-->
+
+        <aside id="banner">
+          <div id="banner_texto">
+            <h1 class="tit_banner_3">Facultad</h1><a class="lang" href="http://puj-portal.javeriana.edu.co/portal/page/portal/Facultad%20de%20Ingenieria/fac_int_english"><img src=
+            "http://puj-portal.javeriana.edu.co/portal/page/portal/Facultad%20de%20Ingenieria/1imagenes/ing.jpg"></a>
+          </div>
+        </aside>
+        <asp:contentplaceholder id="Main" runat="server" />
+      </div>
+    </div>
+
+    <footer id="footer_fac">
+      <asp:contentplaceholder id="Footer" runat="server" />
+    </footer>
+  </form>
+</body>
+</html>
