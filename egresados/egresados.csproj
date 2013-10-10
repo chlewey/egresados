@@ -39,8 +39,13 @@
     <Content Include="Global.asax" />
     <Content Include="web.config" />
     <Content Include="Default.aspx" />
-    <Content Include="Plantilla.css" />
-    <Content Include="Plantilla.master" />
+    <Content Include="javeriana.master" />
+    <Content Include="css\general.css" />
+    <Content Include="inc\Banner.ascx" />
+    <Content Include="inc\Footer.ascx" />
+    <Content Include="inc\MenuBar.ascx" />
+    <Content Include="inc\Search.ascx" />
+    <Content Include="inc\SideMenu.ascx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -52,11 +57,41 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Plantilla.master.cs">
-      <DependentUpon>Plantilla.master</DependentUpon>
+    <Compile Include="javeriana.master.cs">
+      <DependentUpon>javeriana.master</DependentUpon>
     </Compile>
-    <Compile Include="Plantilla.master.designer.cs">
-      <DependentUpon>Plantilla.master</DependentUpon>
+    <Compile Include="javeriana.master.designer.cs">
+      <DependentUpon>javeriana.master</DependentUpon>
+    </Compile>
+    <Compile Include="inc\Banner.ascx.cs">
+      <DependentUpon>Banner.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="inc\Banner.ascx.designer.cs">
+      <DependentUpon>Banner.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="inc\Footer.ascx.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="inc\Footer.ascx.designer.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="inc\MenuBar.ascx.cs">
+      <DependentUpon>MenuBar.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="inc\MenuBar.ascx.designer.cs">
+      <DependentUpon>MenuBar.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="inc\Search.ascx.cs">
+      <DependentUpon>Search.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="inc\Search.ascx.designer.cs">
+      <DependentUpon>Search.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="inc\SideMenu.ascx.cs">
+      <DependentUpon>SideMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="inc\SideMenu.ascx.designer.cs">
+      <DependentUpon>SideMenu.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
@@ -69,7 +104,6 @@
     </MonoDevelop>
   </ProjectExtensions>
   <ItemGroup>
-    <None Include="_menubar.inc" />
     <None Include="egresados.csproj" />
   </ItemGroup>
 </Project>

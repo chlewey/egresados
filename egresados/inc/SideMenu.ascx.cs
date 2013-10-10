@@ -5,7 +5,7 @@ using System.Web.UI;
 
 namespace egresados
 {
-	public partial class javeriana : System.Web.UI.MasterPage
+	public partial class SideMenu : System.Web.UI.UserControl
 	{
 	}
 }

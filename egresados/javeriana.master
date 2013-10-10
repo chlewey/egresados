@@ -1,55 +1,45 @@
-<%@ Master Language="C#" Inherits="egresados.Plantilla" %>
+<%@ Master Language="C#" Inherits="egresados.javeriana" %>
+<%@ Register TagPrefix="include" TagName="MenuBar" Src="~/inc/MenuBar.ascx" %>
+<%@ Register TagPrefix="include" TagName="SideMenu" Src="~/inc/SideMenu.ascx" %>
+<%@ Register TagPrefix="include" TagName="Search" Src="~/inc/Search.ascx" %>
+<%@ Register TagPrefix="include" TagName="Banner" Src="~/inc/Banner.ascx" %>
+<%@ Register TagPrefix="include" TagName="Footer" Src="~/inc/Footer.ascx" %>
 <!DOCTYPE html>
 <html>
 <head runat="server">
-  <meta charset="UTF-8">
-  <title>Master page title</title>
-  <link rel="stylesheet" type="text/css" href="Plantilla.css">
+	<meta charset="UTF-8" />
+	<title>Master page title</title>
+	<link rel="stylesheet" type="text/css" href="~/css/general.css" />
 </head>
 
 <body>
-  <form id="form1" runat="server">
-    <header id="cabezote_fac">
-      <div id="logo">
-        <a href="http://www.javeriana.edu.co">Pontificia Universidad Javeriana</a>
-      </div>
+	<header id="header">
+		<div id="logo">
+			<a href="http://www.javeriana.edu.co">Pontificia Universidad Javeriana</a>
+		</div>
+		<include:Search runat="server" id="Search" />
+		<h1 id="titulo">Facultad de Ingeniería</h1>
+	</header>
 
-      <div id="FormBusqueda">
-        <label for="busUltraSearch" class="buscar">Buscar:</label>
-        <input id="busUltraSearch" class="boton" type="text" onkeypress="return submitEnterBusqueda(event)" maxlength="30" size="23" name="p_mainsearch">
-        <label for="buscar" class="buscar">en:</label> <select id="buscar" class="boton" name="buscar">
-          <option value="laFacultad">
-            La Facultad
-          </option>
-          <option value="javeriana">
-            La Javeriana
-          </option>
-        </select>
-        <a onclick="iniciarBusquedaG();"><input height="18" border="0" align="bottom" width="18" type="image" src="http://puj-portal.javeriana.edu.co/portal/page/portal/Facultad%20de%20Ingenieria/1imagenes/lupa.gif" name="image"></a>
-        <input type="hidden" value="009119323151303871710:ppq9nuqynfm" name="cx">
-        <input type="hidden" value="FORID:11" name="cof"> <input id="q" type="hidden" size="25" name="q">
-      </div>
+	<div id="body">
+		<div id="main">
+			<div id="top">
+				<include:MenuBar runat="server" id="MenuBar" />
+				<include:Banner runat="server" id="Banner" />
+			</div>
+			<div id="left">
+				<include:SideMenu runat="server" id="SideMenu" />
+			</div>
+			<div id="right">
+				<form id="content" runat="server">
+				<asp:contentplaceholder id="Main" runat="server" />
+				</form>
+			</div>
+		</div>
+	</div>
 
-      <h1 id="titulo_fac">Facultad de Ingeniería</h1>
-    </header>
-
-    <div id="contenido_fac">
-      <div id="fondo">
-        <!--#include file="_menubar.inc"-->
-
-        <aside id="banner">
-          <div id="banner_texto">
-            <h1 class="tit_banner_3">Facultad</h1><a class="lang" href="http://puj-portal.javeriana.edu.co/portal/page/portal/Facultad%20de%20Ingenieria/fac_int_english"><img src=
-            "http://puj-portal.javeriana.edu.co/portal/page/portal/Facultad%20de%20Ingenieria/1imagenes/ing.jpg"></a>
-          </div>
-        </aside>
-        <asp:contentplaceholder id="Main" runat="server" />
-      </div>
-    </div>
-
-    <footer id="footer_fac">
-      <asp:contentplaceholder id="Footer" runat="server" />
-    </footer>
-  </form>
+	<footer id="footer">
+		<include:Footer runat="server" id="Footer" />
+	</footer>
 </body>
 </html>

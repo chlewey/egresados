@@ -1,226 +1,81 @@
-body{margin:0;padding:0}
-#cabezote_fac {
-	margin: 12px auto 0;
-	width: 970px;
-	height: 140px;
-	background: url("http://puj-portal.javeriana.edu.co/portal/page/portal/Facultad%20de%20Ingenieria/1imagenes/cabezote.jpg") no-repeat center top;
-	position: relative;
-}
-#contenido_fac {
-	display: relative;
-	width: 970px;
-	height; auto;
-	margin: 0 auto;
-	background: url(http://puj-portal.javeriana.edu.co/portal/page/portal/Facultad%20de%20Ingenieria/1imagenes/fondo_menuprin.jpg) repeat-y center center;
-}
-#fondo {
-	width: 960px;
-	margin: 0 5px;
-	background: #94b3c5 url(http://puj-portal.javeriana.edu.co/portal/page/portal/Facultad%20de%20Ingenieria/1imagenes/fondo_vertical.jpg) repeat-x center 150px;
-}
-#banner {
-	background: url('http://puj-portal.javeriana.edu.co/portal/page/portal/Facultad%20de%20Ingenieria/1imagenes_banner/fac_ing.jpg');
-	width: 960px;
-	height: 150px;
-	position: relative;
-}
-#banner_texto{
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 46px;
-	color: #ffffff;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	background-color: rgba(45,91,129,.7);
-}
-.tit_banner_3{
-	position: absolute;
-	top: 5px;
-	left: 10px;
-	font-size: 20px;
-	font-weight: normal;
-	margin: 0;
-}
-#banner_texto .lang{
-	float: right;
-	margin: 10px 25px 0 0;
-}
-#footer_fac {
-	margin: 0 auto;
-	width:970px;
-	display: relative;
-	background: url('http://puj-portal.javeriana.edu.co/portal/page/portal/Facultad%20de%20Ingenieria/1imagenes/footer_fac.jpg') no-repeat center bottom;
-	height: 25px;
-	text-align: center;
-	vertical-align: middle;
-	font-family: Verdana, Helvetica, "Trebuchet MS";
-	font-size: 9px;
-	color: #ffffff;
-	line-height: 20px;
-}
-#logo {
-	display: block;
-	padding: 15px 0 0 20px;
-	float: left;
-}
-#logo a {
-	display: block;
-	background: url('http://puj-portal.javeriana.edu.co/portal/page/portal/plantillasAtico/imagenes/tiara.gif') no-repeat center top;
-	width: 246px;
-	height: 82px;
-	font-size: 0;
-	text-indent: -999em;
-}
-#FormBusqueda {
-	float: right;
-	height: 50px;
-	margin: 18px 30px 0 0;
-	position: relative;
-	text-align: right;
-	width: 364px;
-}
-#FormBusqueda label {
-	color: white;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 10px;
-	font-weight: bold;
-	text-decoration: none;
-}
-#FormBusqueda input {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	font-weight: normal;
-	padding: 1px 0;
-}
-#FormBusqueda select {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	font-weight: normal;
-}
-#titulo_fac{
-	text-align: right;
-	clear: right;
-	color: #ffffff;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 25px;
-	font-weight: normal;
-	padding: 20px 22px 0 0;
-}
-ul.MenuBarHorizontal
-{
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  padding-top: 0px;
-  padding-right: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  font-size: 10pt;
-  width: 961px;
-  font-family: Verdana;
-  height: 35px;
-  background-color: #2b5b81;
-  text-align: right;
-  vertical-align: middle;
-}
-ul.MenuBarHorizontal:hover
-{
-  z-index: 1000;
-}
-ul.MenuBarHorizontal li
-{
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-	position: relative;
-	text-align: center;
-	cursor: pointer;
-	float: left;
-}
-ul.MenuBarHorizontal ul
-{
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-	font-size: 10px;
-	z-index: 1020;
-	cursor: default;
-	width: 100px;
-	position: absolute;
-	left: -2000px;
-}
-/* Submenu that is showing with class designation MenuBarSubmenuVisible, we set left to auto so it comes onto the screen below its parent menu item */
-ul.MenuBarHorizontal li:hover>ul
-{
-	left: auto;
-}
-/* Menu item containers are same fixed width as parent */
-ul.MenuBarHorizontal ul li
-{
-	width: 150px;
-}
-/* Submenus should appear slightly overlapping to the right (95%) and up (-5%) */
-ul.MenuBarHorizontal ul ul
-{
-	position: absolute;
-	margin: 10 0 0 1;
-}
-/* Submenu that is showing with class designation MenuBarSubmenuVisible, we set left to 0 so it comes onto the screen */
-ul.MenuBarHorizontal ul li:hover>ul
-{
-	left: 150px;
-	top: 0;
-}
-/* Submenu containers have borders on all sides */
-ul.MenuBarHorizontal ul
-{
-
-}
-/* Menu items are a light gray block with padding and no text decoration */
-ul.MenuBarHorizontal a
-{
-	display: block;
-	cursor: pointer;
-	background-color: #2b5b81;
-	color: #FFFFFF;
-	text-decoration: none;
-	padding-right: 9px;
-	padding-bottom: 8px;
-	padding-top: 9px;
-	padding-left: 9px;
-	text-align: left;
-	vertical-align: middle;
-}
-/* Menu items that have mouse over or focus have a blue background and white text */
-ul.MenuBarHorizontal a:hover, ul.MenuBarHorizontal a:focus
-{
-	color: #FFF;
-}
-/* Menu items that are open with submenus are set to MenuBarItemHover with a blue background and white text */
-ul.MenuBarHorizontal a.MenuBarItemHover, ul.MenuBarHorizontal a.MenuBarItemSubmenuHover, ul.MenuBarHorizontal a.MenuBarSubmenuVisible
-{
-	color: #94b3c5;
-}
-/* Menu items that have a submenu have the class designation MenuBarItemSubmenu and are set to use a background image positioned on the far left (95%) and centered vertically (50%) */
-ul.MenuBarHorizontal ul a.MenuBarItemSubmenu
-{
-	background-image: url(SpryMenuBarRight.gif);
-	background-repeat: no-repeat;
-	background-position: 95% 50%;
-}
-.anchoPos {
-	width: 300px;
-}
-
-/* Menu items that are open with submenus have the class designation MenuBarItemSubmenuHover and are set to use a "hover" background image positioned on the far left (95%) and centered vertically (50%) */
-ul.MenuBarHorizontal ul a.MenuBarItemSubmenuHover
-{
-	background-image: url(SpryMenuBarRightHover.gif);
-	background-repeat: no-repeat;
-	background-position: 95% 50%;
-}
+/*
+ * General behavior of elements
+ */
+*{margin:0;padding:0}
+body{font-family:Verdana, Arial, Helvetica, sans-serif;font-size: 12px;background:white}
+:link,:visited{color:inherit;text-decoration:none}
+:link:hover,:visited:hover{text-decoration:underline}
+ul{list-style-type:none}
+input[type=text]{width:12em}
+/*
+ * Main layout
+ */
+#header{position:relative;margin:12px auto 0;width:970px;height:140px}
+	#logo{display:block;padding:15px 0 0 20px;float: left}
+		#logo a{display:block;width:246px;height:82px}
+	#FormBusqueda{position:relative;float:right;height:50px;margin:18px 30px 0 0;width:364px}
+		#FormBusqueda label{}
+		#FormBusqueda input{padding:1px 0}
+		#FormBusqueda select{}
+	#titulo{clear:right;padding:20px 22px 0 0}
+#body{position:relative;margin:0 auto;width:970px;height;auto}
+	#main{width:960px;margin:0 5px}
+		#top{}
+			ul.MenuBarHorizontal{width:961px;height:35px}
+			ul.MenuBarHorizontal:hover{z-index:1000}
+				ul.MenuBarHorizontal li{position:relative;float:left}
+					ul.MenuBarHorizontal ul{z-index:1020;width:100px;position:absolute;left:-2000px}
+					ul.MenuBarHorizontal li:hover>ul{left:auto}
+						ul.MenuBarHorizontal ul li{width:150px}
+							ul.MenuBarHorizontal ul ul{position:absolute;margin:10px 0 0 1px}
+							ul.MenuBarHorizontal ul li:hover>ul{left:150px;top:0}
+				ul.MenuBarHorizontal a{display:block;padding:9px 9px 8px}
+						.anchoPos{width:300px}
+			#banner{width:960px;height:150px;position:relative}
+				#banner_texto{position:absolute;bottom:0;left:0;right:0;height:46px}
+					#banner_title{position:absolute;top:5px;left:10px}
+					#banner_texto .lang{float:right;margin:10px 25px 0 0;}
+		#left{float:left;padding:20px 5px 5px;width:210px}
+			ul.SideMenu{}
+				ul.SideMenu li{}
+					ul.SideMenu a{display:block;padding: 4px 6px 4px 10px}
+					ul.SideMenu ul{}
+						ul.SideMenu ul a{padding-left:30px}
+		#right{float:right;padding:20px 5px 5px 0;width:735px}
+	#main:after{content:' ';display:block;clear:both;height:0}
+#footer{position:relative;margin:0 auto;width:970px;height:25px}
+/*
+ * Element styling
+ */
+#header{background:transparent url('/images/cabezote.jpg') no-repeat center top}
+	#logo{}
+		#logo a{background:transparent url('/images/tiara.gif') no-repeat center top;font-size:0;text-indent:-999em}
+	#FormBusqueda{text-align:right}
+		#FormBusqueda label{color:white;font-size:10px;font-weight:bold}
+		#FormBusqueda input{font-size:12px;font-weight:normal}
+		#FormBusqueda select{font-size: 12px;font-weight: normal}
+	#titulo{text-align:right;color:white;font-size:25px;font-weight:normal}
+#body{background:transparent url('/images/fondo_menuprin.jpg') repeat-y center center}
+	#main{background:#94b3c5 url('/images/fondo_vertical.jpg') repeat-x center 150px}
+		#top{}
+			ul.MenuBarHorizontal{font-size:10pt;background-color:#2b5b81;text-align:right;vertical-align:middle}
+				ul.MenuBarHorizontal li{text-align:center;cursor:pointer}
+					ul.MenuBarHorizontal ul{font-size:10px;cursor:default}
+					ul.MenuBarHorizontal a{cursor:pointer;background-color:#2b5b81;color:white;text-align:left;vertical-align:middle}
+					ul.MenuBarHorizontal a:hover{text-decoration:none!important}
+					ul.MenuBarHorizontal a:hover,ul.MenuBarHorizontal a:focus{color:white}
+					ul.MenuBarHorizontal a.MenuBarItemHover, ul.MenuBarHorizontal a.MenuBarItemSubmenuHover, ul.MenuBarHorizontal a.MenuBarSubmenuVisible{color:#94b3c5}
+						ul.MenuBarHorizontal ul a.MenuBarItemSubmenu{background:transparent url('/images/SpryMenuBarRight.gif') no-repeat 95% 50%}
+						ul.MenuBarHorizontal ul a.MenuBarItemSubmenuHover{background:transparent url('(images/SpryMenuBarRightHover.gif') no-repeat 95% 50%}
+			#banner{background:transparent url('/images/banner/fac_ing.jpg') no-repeat center center}
+				#banner_texto{color:white;background-color:rgba(45,91,129,.7)}
+					#banner_title{font-weight:normal}
+		#left{}
+			ul.SideMenu{color:#aca991;font-weight:bold}
+				ul.SideMenu a{color:#22435d}
+					ul.SideMenu ul a{color:#3b7bae}
+		#right{}
+#footer{background:transparent url('/images/footer_fac.jpg') no-repeat center bottom;font-size:9px;color:white;line-height:20px;text-align:center;vertical-align:middel}
 
 /*******************************************************************************
 

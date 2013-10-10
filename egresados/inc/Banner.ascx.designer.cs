@@ -13,7 +13,7 @@ using System.Web.UI;
 
 namespace egresados
 {
-	public partial class javeriana
+	public partial class Banner
 	{
 	}
 }
