@@ -1,4 +1,4 @@
-egresados
+Egresados
 =========
 
 Directorio de egresados
