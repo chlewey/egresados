@@ -46,6 +46,13 @@
     <Content Include="inc\MenuBar.ascx" />
     <Content Include="inc\Search.ascx" />
     <Content Include="inc\SideMenu.ascx" />
+    <Content Include="Registro.ascx" />
+    <Content Include="faq.aspx" />
+    <Content Include="ayuda.aspx" />
+    <Content Include="empresas.aspx" />
+    <Content Include="directorio.aspx" />
+    <Content Include="actualizacion.aspx" />
+    <Content Include="ayuda_empresas.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -93,6 +100,48 @@
     <Compile Include="inc\SideMenu.ascx.designer.cs">
       <DependentUpon>SideMenu.ascx</DependentUpon>
     </Compile>
+    <Compile Include="Registro.ascx.cs">
+      <DependentUpon>Registro.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Registro.ascx.designer.cs">
+      <DependentUpon>Registro.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="faq.aspx.cs">
+      <DependentUpon>faq.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="faq.aspx.designer.cs">
+      <DependentUpon>faq.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ayuda.aspx.cs">
+      <DependentUpon>ayuda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ayuda.aspx.designer.cs">
+      <DependentUpon>ayuda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="empresas.aspx.cs">
+      <DependentUpon>empresas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="empresas.aspx.designer.cs">
+      <DependentUpon>empresas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="directorio.aspx.cs">
+      <DependentUpon>directorio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="directorio.aspx.designer.cs">
+      <DependentUpon>directorio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="actualizacion.aspx.cs">
+      <DependentUpon>actualizacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="actualizacion.aspx.designer.cs">
+      <DependentUpon>actualizacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ayuda_empresas.aspx.cs">
+      <DependentUpon>ayuda_empresas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ayuda_empresas.aspx.designer.cs">
+      <DependentUpon>ayuda_empresas.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
@@ -105,5 +154,6 @@
   </ProjectExtensions>
   <ItemGroup>
     <None Include="egresados.csproj" />
+    <None Include="banners.xml" />
   </ItemGroup>
 </Project>

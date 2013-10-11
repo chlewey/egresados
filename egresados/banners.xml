@@ -1,0 +1,191 @@
+<Advertisements>
+<Ad>
+<ImageUrl>/images/banner/arq_empres.jpg</ImageUrl>
+<NavigateUrl>/arq_empres</NavigateUrl>
+<AlternateText>Arquitectura empresarial</AlternateText>
+<Impressions>3</Impressions>
+<Keyword>arq_empres</Keyword>
+</Ad>
+<Ad>
+<ImageUrl>/images/banner/boletin_ing.jpg</ImageUrl>
+<NavigateUrl>/boletin_ing</NavigateUrl>
+<AlternateText>Boletín de ingeniería</AlternateText>
+<Impressions>3</Impressions>
+<Keyword>boletin_ing</Keyword>
+</Ad>
+<Ad>
+<ImageUrl>/images/banner/car_ingcivil.jpg</ImageUrl>
+<NavigateUrl>/car_ingcivil</NavigateUrl>
+<AlternateText>Carrera de Ingeniería Civil</AlternateText>
+<Impressions>3</Impressions>
+<Keyword>car_ingcivil</Keyword>
+</Ad>
+<Ad>
+<ImageUrl>/images/banner/car_ingelectronica.jpg</ImageUrl>
+<NavigateUrl>/car_ingelectronica</NavigateUrl>
+<AlternateText>Carrera de Ingeniería Electrónica</AlternateText>
+<Impressions>3</Impressions>
+<Keyword>car_ingelectronica</Keyword>
+</Ad>
+<Ad>
+<ImageUrl>/images/banner/car_ingindustrial.jpg</ImageUrl>
+<NavigateUrl>/car_ingindustrial</NavigateUrl>
+<AlternateText>Carrera de Ingeniería Industrial</AlternateText>
+<Impressions>3</Impressions>
+<Keyword>car_ingindustrial</Keyword>
+</Ad>
+<Ad>
+<ImageUrl>/images/banner/car_ingsistemas.jpg</ImageUrl>
+<NavigateUrl>/car_ingsistemas</NavigateUrl>
+<AlternateText>Carrera de Ingeniería de Sistemas</AlternateText>
+<Impressions>3</Impressions>
+<Keyword>car_ingsistemas</Keyword>
+</Ad>
+<Ad>
+<ImageUrl>/images/banner/contactenos_ing.jpg</ImageUrl>
+<NavigateUrl>/contactenos_ing</NavigateUrl>
+<AlternateText>Contáctenos</AlternateText>
+<Impressions>3</Impressions>
+<Keyword>contactenos_ing</Keyword>
+</Ad>
+<Ad>
+<ImageUrl>/images/banner/depto_civil.jpg</ImageUrl>
+<NavigateUrl>/depto_civil</NavigateUrl>
+<AlternateText>Departamento de Civil</AlternateText>
+<Impressions>3</Impressions>
+<Keyword>depto_civil</Keyword>
+</Ad>
+<Ad>
+<ImageUrl>/images/banner/depto_electronica.jpg</ImageUrl>
+<NavigateUrl>/depto_electronica</NavigateUrl>
+<AlternateText>Departamento de Electrónica</AlternateText>
+<Impressions>3</Impressions>
+<Keyword>depto_electronica</Keyword>
+</Ad>
+<Ad>
+<ImageUrl>/images/banner/depto_industrial.jpg</ImageUrl>
+<NavigateUrl>/depto_industrial</NavigateUrl>
+<AlternateText>Departamento de Industrial</AlternateText>
+<Impressions>3</Impressions>
+<Keyword>depto_industrial</Keyword>
+</Ad>
+<Ad>
+<ImageUrl>/images/banner/depto_sistemas.jpg</ImageUrl>
+<NavigateUrl>/depto_sistemas</NavigateUrl>
+<AlternateText>Departamento de Sistemas</AlternateText>
+<Impressions>3</Impressions>
+<Keyword>depto_sistemas</Keyword>
+</Ad>
+<Ad>
+<ImageUrl>/images/banner/doctorado_ing.jpg</ImageUrl>
+<NavigateUrl>/doctorado_ing</NavigateUrl>
+<AlternateText>Doctorado en Ingeniería</AlternateText>
+<Impressions>3</Impressions>
+<Keyword>doctorado_ing</Keyword>
+</Ad>
+<Ad>
+<ImageUrl>/images/banner/edu_continua.jpg</ImageUrl>
+<NavigateUrl>/edu_continua</NavigateUrl>
+<AlternateText>Educación Continua</AlternateText>
+<Impressions>3</Impressions>
+<Keyword>edu_continua</Keyword>
+</Ad>
+<Ad>
+<ImageUrl>/images/banner/egresados.jpg</ImageUrl>
+<NavigateUrl>/egresados</NavigateUrl>
+<AlternateText>Egresados</AlternateText>
+<Impressions>28</Impressions>
+<Keyword>egresados</Keyword>
+</Ad>
+<Ad>
+<ImageUrl>/images/banner/fac_ing.jpg</ImageUrl>
+<NavigateUrl>/fac_ing</NavigateUrl>
+<AlternateText>fac_ing</AlternateText>
+<Impressions>3</Impressions>
+<Keyword>fac_ing</Keyword>
+</Ad>
+<Ad>
+<ImageUrl>/images/banner/geo_vial.jpg</ImageUrl>
+<NavigateUrl>/geo_vial</NavigateUrl>
+<AlternateText>Geotecnia Vial</AlternateText>
+<Impressions>3</Impressions>
+<Keyword>geo_vial</Keyword>
+</Ad>
+<Ad>
+<ImageUrl>/images/banner/ger_construccion.jpg</ImageUrl>
+<NavigateUrl>/ger_construccion</NavigateUrl>
+<AlternateText>Gerencia en Construcción</AlternateText>
+<Impressions>3</Impressions>
+<Keyword>ger_construccion</Keyword>
+</Ad>
+<Ad>
+<ImageUrl>/images/banner/ing_operaciones.jpg</ImageUrl>
+<NavigateUrl>/ing_operaciones</NavigateUrl>
+<AlternateText>ing_operaciones</AlternateText>
+<Impressions>3</Impressions>
+<Keyword>ing_operaciones</Keyword>
+</Ad>
+<Ad>
+<ImageUrl>/images/banner/inst_geofisico.jpg</ImageUrl>
+<NavigateUrl>/inst_geofisico</NavigateUrl>
+<AlternateText>Instituto Geofísico</AlternateText>
+<Impressions>3</Impressions>
+<Keyword>inst_geofisico</Keyword>
+</Ad>
+<Ad>
+<ImageUrl>/images/banner/mae_civil.jpg</ImageUrl>
+<NavigateUrl>/mae_civil</NavigateUrl>
+<AlternateText>Maestría en Ingeniería Civil</AlternateText>
+<Impressions>3</Impressions>
+<Keyword>mae_civil</Keyword>
+</Ad>
+<Ad>
+<ImageUrl>/images/banner/mae_electronica.jpg</ImageUrl>
+<NavigateUrl>/mae_electronica</NavigateUrl>
+<AlternateText>Maestría en Ingeniería Electrónica</AlternateText>
+<Impressions>3</Impressions>
+<Keyword>mae_electronica</Keyword>
+</Ad>
+<Ad>
+<ImageUrl>/images/banner/mae_hidrosist.jpg</ImageUrl>
+<NavigateUrl>/mae_hidrosist</NavigateUrl>
+<AlternateText>Maestría en Hidrosistemas</AlternateText>
+<Impressions>3</Impressions>
+<Keyword>mae_hidrosist</Keyword>
+</Ad>
+<Ad>
+<ImageUrl>/images/banner/mae_industrial.jpg</ImageUrl>
+<NavigateUrl>/mae_industrial</NavigateUrl>
+<AlternateText>Maestría en Ingeniería Industrial</AlternateText>
+<Impressions>3</Impressions>
+<Keyword>mae_industrial</Keyword>
+</Ad>
+<Ad>
+<ImageUrl>/images/banner/mae_sistemas.jpg</ImageUrl>
+<NavigateUrl>/mae_sistemas</NavigateUrl>
+<AlternateText>Maestría en Ingeniería de Sistemas</AlternateText>
+<Impressions>3</Impressions>
+<Keyword>mae_sistemas</Keyword>
+</Ad>
+<Ad>
+<ImageUrl>/images/banner/publicaciones_ryu.jpg</ImageUrl>
+<NavigateUrl>/publicaciones_ryu</NavigateUrl>
+<AlternateText>Publicaciones</AlternateText>
+<Impressions>3</Impressions>
+<Keyword>publicaciones_ryu</Keyword>
+</Ad>
+<Ad>
+<ImageUrl>/images/banner/sist_gerenciales.jpg</ImageUrl>
+<NavigateUrl>/sist_gerenciales</NavigateUrl>
+<AlternateText>Sistemas Gerenciales</AlternateText>
+<Impressions>3</Impressions>
+<Keyword>sist_gerenciales</Keyword>
+</Ad>
+<Ad>
+<ImageUrl>/images/banner/tec_construccion.jpg</ImageUrl>
+<NavigateUrl>/tec_construccion</NavigateUrl>
+<AlternateText>Tecnología en construcción</AlternateText>
+<Impressions>3</Impressions>
+<Keyword>tec_construccion</Keyword>
+</Ad>
+</Advertisements>

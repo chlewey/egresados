@@ -32,7 +32,7 @@
 			</div>
 			<div id="right">
 				<form id="content" runat="server">
-				<asp:contentplaceholder id="Main" runat="server" />
+				<asp:ContentPlaceHolder id="Main" runat="server" />
 				</form>
 			</div>
 		</div>
