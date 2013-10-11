@@ -14,5 +14,7 @@ namespace egresados {
 	public partial class Search {
 		
 		protected System.Web.UI.WebControls.TextBox busUltraSearch;
+		
+		protected System.Web.UI.WebControls.DropDownList buscar;
 	}
 }

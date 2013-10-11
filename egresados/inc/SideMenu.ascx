@@ -1,23 +1,23 @@
 <%@ Control Language="C#" Inherits="egresados.SideMenu" %>
-  <ul id="SideMenu1" class="SideMenu">
-    <li>
-      <a href="~">Eventos</a>
-      <ul>
-        <li><a href="~">Eventos sociales</a></li>
-        <li><a href="~">Eventos académicos</a></li>
-        <li><a href="~">Eventos laborales</a></li>
+
+<ul id="SideMenu1" class="SideMenu">
+	<li><asp:HyperLink NavigateUrl="/crea/eventos.aspx" Text="Eventos" runat="server"/>
+		<ul>
+			<li><asp:HyperLink NavigateUrl="/crea/eventos.aspx?type=sociales" Text="Eventos sociales" runat="server"/></li>
+			<li><asp:HyperLink NavigateUrl="/crea/eventos.aspx?type=academicos" Text="Eventos académicos" runat="server"/></li>
+			<li><asp:HyperLink NavigateUrl="/crea/eventos.aspx?type=laborales" Text="Eventos laborales" runat="server"/></li>
       </ul>
     </li>
-    <li><a href="~">Bolsa de empleo</a></li>
-    <li><a href="~">Directorio de exalumnos</a></li>
-    <li><a href="~">Directorio de empresas</a></li>
-    <li><a href="~">Oportunidades académicas</a></li>
-    <li><a href="~">Enlaces de interés</a></li>
-    <li>
-      <a href="~">Trámites y servicios</a>
-      <ul>
-        <li><a href="~">Tarjeta profesional</a></li>
-        <li><a href="~">Carné de egresado</a></li>
+    <li><asp:HyperLink NavigateUrl="/crea/contacto.aspx" Text="Contáctenos" runat="server"/></li>
+    <li><asp:HyperLink NavigateUrl="/bolsa/" Text="Bolsa de empleo" runat="server"/></li>
+    <li><asp:HyperLink NavigateUrl="/directorio/" Text="Directorio de egresados" runat="server"/></li>
+    <li><asp:HyperLink NavigateUrl="/directorio/empresas.aspx" Text="Directorio de empresas" runat="server"/></li>
+    <li><asp:HyperLink NavigateUrl="/crea/oportunidades.aspx" Text="Oportunidades académicas" runat="server"/></li>
+    <li><asp:HyperLink NavigateUrl="/crea/enlaces.aspx" Text="Enlaces de interés" runat="server"/></li>
+	<li><asp:HyperLink NavigateUrl="/crea/servicios.aspx" Text="Trámites y servicios" runat="server"/>
+		<ul>
+			<li><asp:HyperLink NavigateUrl="/crea/tarjeta.aspx" Text="Tarjeta profesional" runat="server"/></li>
+			<li><asp:HyperLink NavigateUrl="/crea/carnet.aspx" Text="Carné de egresado" runat="server"/></li>
       </ul>
     </li>
-  </ul>
+</ul>

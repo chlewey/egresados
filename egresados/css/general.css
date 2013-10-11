@@ -49,7 +49,7 @@ input[type=text]{width:12em}
 						ul.SideMenu ul a{padding-left:30px}
 		#right{float:right;padding:20px 5px 5px 0;width:735px}
 			.panel{width:360px;margin-left:5px;float:left}
-			.panel.double{width:730px}
+			.panel.double{width:730px;clear:both}
 	#main:after{content:' ';display:block;clear:both;height:0}
 #footer{position:relative;margin:0 auto;width:970px;height:25px}
 /*
@@ -83,9 +83,10 @@ input[type=text]{width:12em}
 				ul.SideMenu a{color:#22435d}
 					ul.SideMenu ul a{color:#3b7bae}
 		#right{}
-			#right h1{font-size:15px;color:#ffffff;background:#22435d;padding:6px;font-weight:bold}
-			#right h2{font-size:12.5px;margin:1em 0 .5em}
+			#right h1{font-size:15px;color:#ffffff;background:#22435d;padding:6px;font-weight:bold;width:700px}
+			#right h2{font-size:14px;margin:1em 0 .5em}
 			#right p{margin:.35em 0}
+			#right blockquote{padding:0 2em;font-style:italic}
 #footer{background:transparent url('/images/footer_fac.jpg') no-repeat center bottom;font-size:9px;color:white;line-height:20px;text-align:center;vertical-align:middel}
 
 /*******************************************************************************

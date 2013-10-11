@@ -1,104 +1,104 @@
 <%@ Control Language="C#" Inherits="egresados.MenuBar" %>
-  <ul id="MenuBar" class="MenuBarHorizontal">
-    <li><a href="~/../INICIO">Inicio</a></li>
-    <li>
-      <a class="MenuBarHorizontal" href="#">Facultad</a>
-      <ul>
-        <li><a href="~/../fac_presentacion">Presentación</a></li>
-        <li><a href="~/../fac_consejo">Consejo Facultad</a></li>
-        <li><a href="~/../fac_dec_academica">Decanatura Academica</a></li>
-        <li><a href="~/../plt_facultad/Decanatura%20del%20Medio%20Universitario">Decanatura del Medio Universitario</a></li>
-        <li><a href="~/../fac_secretaria1">Secretaría de Facultad</a></li>
-      </ul>
-    </li>
-    <li>
-      <a class="MenuBarHorizontal" href="#">Programas</a>
-      <ul>
-        <li>
-          <a class="MenuBarItemSubmenu" href="#">Pregrados</a>
-          <ul>
-            <li><a href="~/../car_civil_presentacion">Ingeniería Civil</a></li>
-            <li><a href="~/../car_elect_presentacion">Ingeniería Electrónica</a></li>
-            <li><a href="~/../car_indust_presentacion">Ingeniería Industrial</a></li>
-            <li><a href="~/../car_sist_presentacion1">Ingeniería de Sistemas</a></li>
-          </ul>
-        </li>
-        <li>
-          <a class="MenuBarItemSubmenu" href="#">Posgrados</a>
-          <ul>
-            <li><a class="anchoPos" href="~/../pos_doctorado_ing_anuncios">Doctorado en Ingeniería</a></li>
-            <li><a class="anchoPos" href="~/../plt_mae_civil/Presentaci%F3n">Maestría en Ingeniería Civil</a></li>
-            <li><a class="anchoPos" href="~/../plt_mae_electronica/Presentaci%F3n">Maestría en Ingeniería Electrónica</a></li>
-            <li><a class="anchoPos" href="~/../mae_hidrosist">Maestría en Hidrosistemas</a></li>
-            <li><a class="anchoPos" href="~/../mae_indust">Maestría en Ingeniería Industrial</a></li>
-            <li><a class="anchoPos" href="~/../mae_sist_anuncios">Maestría en Ingeniería de Sistemas y Computación</a></li>
-            <li><a class="anchoPos" href="~/../pos_ing_operaciones1">Especialización en Ingeniería de Operaciones en Manufactura y Servicios</a></li>
-            <li><a class="anchoPos" href="~/../pos_tec_contrucc">Especialización en Tecnología de Construcción en Edificaciones</a></li>
-            <li><a class="anchoPos" href="~/../pos_geovial">Especialización en Geotecnia Vial y Pavimentos</a></li>
-            <li><a class="anchoPos" href="~/../pos_ger_contrucc">Especialización en Gerencia de Construcciones</a></li>
-            <li><a class="anchoPos" href="~/../pos_sist_gerenc">Especialización en Sistemas Gerenciales de Ingeniería</a></li>
-            <li><a class="anchoPos" href="~/../pos_arq_empresarial">Especialización en Arquitectura Empresarial de Software</a></li>
-          </ul>
-        </li>
-        <li><a href="~/../edcon_presentacion">Educación Continua</a></li>
-        <li><a href="http://puj-portal.javeriana.edu.co/portal/page/portal/Facultad%20de%20Ciencias/preuniv_presentacion">Preuniversitario de Ingeniería</a></li>
-      </ul>
-    </li>
-    <li>
-      <a class="MenuBarHorizontal MenuBarItemSubmenu" href="#">Departamentos</a>
-      <ul>
-        <li><a href="~/../dpto_civil_presentacion">Departamento Ingeniería Civil</a></li>
-        <li><a href="~/../dpto_elect_presentacion">Departamento Ingeniería Electrónica</a></li>
-        <li><a href="~/../dpto_indust_presentacion">Departamento Ingeniería Industrial</a></li>
-        <li><a href="~/../dpto_indust_presentacion">Departamento Ingeniería Industrial</a></li>
-        <li><a href="~/../dpto_sist_presentacion">Departamento Ingeniería de Sistemas</a></li>
-      </ul>
-    </li>
-    <li>
-      <a class="MenuBarHorizontal MenuBarItemSubmenu" href="#">Institutos</a>
-      <ul>
-        <li><a href="~/../inst_geofisico_presentacion">Instituto Geofisico</a></li>
-      </ul>
-    </li>
-    <li>
-      <a class="MenuBarHorizontal MenuBarItemSubmenu" href="#">Investigación</a>
-      <ul>
-        <li><a href="~/../dpto_civil_grupos">Grupos de Investigación Ingeniería Civil</a></li>
-        <li><a href="~/../dpto_elect_grupos">Grupos de Investigación Ingeniería Electrónica</a></li>
-        <li><a href="~/../dpto_indust_grupos">Grupos de Investigación Ingeniería Industrial</a></li>
-        <li><a href="~/../dpto_sist_grupos">Grupos de Investigación Ingeniería de Sistemas</a></li>
-      </ul>
-    </li>
-    <li>
-      <a class="MenuBarHorizontal MenuBarItemSubmenu" href="#">Publicaciones</a>
-      <ul>
-        <li><a href="http://ingenieriayuniversidad.javeriana.edu.co/">Revista Ingeniería y Universidad</a></li>
-      </ul>
-    </li>
-    <li>
-      <a class="MenuBarHorizontal MenuBarItemSubmenu" href="#">Servicios</a>
-      <ul>
-        <li><a href="~/../dpto_civil_laboratorios">Laboratorio Ingeniería Civil</a></li>
-        <li><a href="~/../dpto_elect_laboratorios">Laboratorio Ingeniería Electrónica</a></li>
-        <li><a href="~/../dpto_indust_laboratorios">Laboratorio Ingeniería Industrial</a></li>
-        <li><a href="~/../dpto_sist_laboratorios">Laboratorio Ingeniería de Sistemas</a></li>
-      </ul>
-    </li>
-    <li>
-      <a class="MenuBarHorizontal MenuBarItemSubmenu" href="http://egresados.javeriana.edu.co">Egresados</a>
-      <ul>
-        <li><a href="~/../egres_eventos">Eventos</a></li>
-        <li><a href="~/../egres_noticias">Noticias</a></li>
-        <li><a href="~/../egres_contactenos">Contáctenos</a></li>
-        <li><a href="http://fing.javeriana.edu.co/empleo/">Bolsa de Empleo</a></li>
-        <li><a href="http://fing.javeriana.edu.co/crea/#">Directorio de Exalumnos</a></li>
-        <li><a href="http://www.reunete.co/">Directorio de Empresas</a></li>
-        <li><a href="~/../egres_oport_academicas">Oportunidades Académicas</a></li>
-        <li><a href="~/../egres_javerianitos">Javerianitos</a></li>
-        <li><a href="~/../egres_enlaces_interes">Enlaces de interés</a></li>
-        <li><a href="~/../egres_servicios">Trámites y Servicios</a></li>
-      </ul>
-    </li>
-    <li><a href="http://www.javeriana.edu.co/boleting/">.ING</a></li>
-    <li><a href="~/../contactenos_ing">Contáctenos</a></li>
-  </ul>
+
+<ul id="MenuBar" class="MenuBarHorizontal">
+	<li><asp:HyperLink NavigateUrl="/ing/" Text="Inicio" runat="server"/></li>
+	<li>
+		<asp:HyperLink NavigateUrl="~" Text="Facultad" runat="server" class="MenuBarHorizontal" />
+		<ul>
+			<li><asp:HyperLink NavigateUrl="/ing/fac_presentacion" Text="Presentación" runat="server"/></li>
+			<li><asp:HyperLink NavigateUrl="/ing/fac_consejo" Text="Consejo Facultad" runat="server"/></li>
+			<li><asp:HyperLink NavigateUrl="/ing/fac_dec_academica" Text="Decanatura Academica" runat="server"/></li>
+			<li><asp:HyperLink NavigateUrl="/ing/fac/dec_medio" Text="Decanatura del Medio Universitario" runat="server"/></li>
+			<li><asp:HyperLink NavigateUrl="/ing/fac_secretaria" Text="Secretaría de Facultad" runat="server"/></li>
+		</ul>
+	</li>
+	<li>
+		<asp:HyperLink NavigateUrl="~" Text="Programas" runat="server" class="MenuBarHorizontal" />
+		<ul>
+			<li>
+				<asp:HyperLink NavigateUrl="~" Text="Pregrados" runat="server" class="MenuBarItemSubmenu" />
+				<ul>
+					<li><asp:HyperLink NavigateUrl="/ing/car_civil" Text="Ingeniería Civil" runat="server"/></li>
+					<li><asp:HyperLink NavigateUrl="/ing/car_electronica" Text="Ingeniería Electrónica" runat="server"/></li>
+					<li><asp:HyperLink NavigateUrl="/ing/car_industrial" Text="Ingeniería Industrial" runat="server"/></li>
+					<li><asp:HyperLink NavigateUrl="/ing/car_sistemas" Text="Ingeniería de Sistemas" runat="server"/></li>
+				</ul>
+			</li>
+			<li>
+				<asp:HyperLink NavigateUrl="~" Text="Posgrados" runat="server" class="MenuBarItemSubmenu" />
+				<ul>
+					<li><asp:HyperLink NavigateUrl="/ing/doctorado" Text="Doctorado en Ingeniería" runat="server" class="anchoPos" /></li>
+					<li><asp:HyperLink NavigateUrl="/ing/mae_civil" Text="Maestría en Ingeniería Civil" runat="server" class="anchoPos" /></li>
+					<li><asp:HyperLink NavigateUrl="/ing/mae_electronica" Text="Maestría en Ingeniería Electrónica" runat="server" class="anchoPos" /></li>
+					<li><asp:HyperLink NavigateUrl="/ing/mae_hidrosist" Text="Maestría en Hidrosistemas" runat="server" class="anchoPos" /></li>
+					<li><asp:HyperLink NavigateUrl="/ing/mae_industrial" Text="Maestría en Ingeniería Industrial" runat="server" class="anchoPos" /></li>
+					<li><asp:HyperLink NavigateUrl="/ing/mae_sistemas" Text="Maestría en Ingeniería de Sistemas y Computación" runat="server" class="anchoPos" /></li>
+					<li><asp:HyperLink NavigateUrl="/ing/pos_ing_operaciones" Text="Especialización en Ingeniería de Operaciones en Manufactura y Servicios" runat="server" class="anchoPos" /></li>
+					<li><asp:HyperLink NavigateUrl="/ing/pos_tec_contrucc" Text="Especialización en Tecnología de Construcción en Edificaciones" runat="server" class="anchoPos" /></li>
+					<li><asp:HyperLink NavigateUrl="/ing/pos_geovial" Text="Especialización en Geotecnia Vial y Pavimentos" runat="server" class="anchoPos" /></li>
+					<li><asp:HyperLink NavigateUrl="/ing/pos_ger_contrucc" Text="Especialización en Gerencia de Construcciones" runat="server" class="anchoPos" /></li>
+					<li><asp:HyperLink NavigateUrl="/ing/pos_sist_gerenc" Text="Especialización en Sistemas Gerenciales de Ingeniería" runat="server" class="anchoPos" /></li>
+					<li><asp:HyperLink NavigateUrl="/ing/pos_arq_empresarial" Text="Especialización en Arquitectura Empresarial de Software" runat="server" class="anchoPos" /></li>
+				</ul>
+			</li>
+			<li><asp:HyperLink NavigateUrl="/ing/edu_continua" Text="Educación Continua" runat="server"/></li>
+			<li><asp:HyperLink NavigateUrl="/ing/preuniversitario" Text="Preuniversitario de Ingeniería" runat="server"/></li>
+		</ul>
+	</li>
+	<li>
+		<asp:HyperLink NavigateUrl="~" Text="Departamentos" runat="server" class="MenuBarHorizontal MenuBarItemSubmenu" />
+		<ul>
+			<li><asp:HyperLink NavigateUrl="/ing/dpto_civil" Text="Departamento Ingeniería Civil" runat="server"/></li>
+			<li><asp:HyperLink NavigateUrl="/ing/dpto_electronica" Text="Departamento Ingeniería Electrónica" runat="server"/></li>
+			<li><asp:HyperLink NavigateUrl="/ing/dpto_industrial" Text="Departamento Ingeniería Industrial" runat="server"/></li>
+			<li><asp:HyperLink NavigateUrl="/ing/dpto_sistemas" Text="Departamento Ingeniería de Sistemas" runat="server"/></li>
+		</ul>
+	</li>
+	<li>
+		<asp:HyperLink NavigateUrl="~" Text="Institutos" runat="server" class="MenuBarHorizontal MenuBarItemSubmenu" />
+		<ul>
+			<li><asp:HyperLink NavigateUrl="/ing/inst_geofisico" Text="Instituto Geofisico" runat="server"/></li>
+		</ul>
+	</li>
+	<li>
+		<asp:HyperLink NavigateUrl="~" Text="Investigación" runat="server" class="MenuBarHorizontal MenuBarItemSubmenu" />
+		<ul>
+			<li><asp:HyperLink NavigateUrl="/ing/dpto_civil_grupos" Text="Grupos de Investigación Ingeniería Civil" runat="server"/></li>
+			<li><asp:HyperLink NavigateUrl="/ing/dpto_elect_grupos" Text="Grupos de Investigación Ingeniería Electrónica" runat="server"/></li>
+			<li><asp:HyperLink NavigateUrl="/ing/dpto_indust_grupos" Text="Grupos de Investigación Ingeniería Industrial" runat="server"/></li>
+			<li><asp:HyperLink NavigateUrl="/ing/dpto_sist_grupos" Text="Grupos de Investigación Ingeniería de Sistemas" runat="server"/></li>
+		</ul>
+	</li>
+	<li>
+		<asp:HyperLink NavigateUrl="~" Text="Publicaciones" runat="server" class="MenuBarHorizontal MenuBarItemSubmenu" />
+		<ul>
+			<li><asp:HyperLink NavigateUrl="/ing/iyu" Text="Revista Ingeniería y Universidad" runat="server"/></li>
+		</ul>
+	</li>
+	<li>
+		<asp:HyperLink NavigateUrl="~" Text="Servicios" runat="server" class="MenuBarHorizontal MenuBarItemSubmenu" />
+		<ul>
+			<li><asp:HyperLink NavigateUrl="/ing/dpto_civil_laboratorios" Text="Laboratorio Ingeniería Civil" runat="server"/></li>
+			<li><asp:HyperLink NavigateUrl="/ing/dpto_elect_laboratorios" Text="Laboratorio Ingeniería Electrónica" runat="server"/></li>
+			<li><asp:HyperLink NavigateUrl="/ing/dpto_indust_laboratorios" Text="Laboratorio Ingeniería Industrial" runat="server"/></li>
+			<li><asp:HyperLink NavigateUrl="/ing/dpto_sist_laboratorios" Text="Laboratorio Ingeniería de Sistemas" runat="server"/></li>
+		</ul>
+	</li>
+	<li>
+		<asp:HyperLink NavigateUrl="/crea/" Text="Egresados" runat="server" class="MenuBarHorizontal MenuBarItemSubmenu" />
+		<ul>
+			<li><asp:HyperLink NavigateUrl="/crea/eventos.aspx" Text="Eventos" runat="server"/></li>
+			<li><asp:HyperLink NavigateUrl="/crea/noticias.aspx" Text="Noticias" runat="server"/></li>
+			<li><asp:HyperLink NavigateUrl="/crea/contacto.aspx" Text="Contáctenos" runat="server"/></li>
+			<li><asp:HyperLink NavigateUrl="/bolsa/" Text="Bolsa de Empleo" runat="server"/></li>
+			<li><asp:HyperLink NavigateUrl="/directorio/" Text="Directorio de Exalumnos" runat="server"/></li>
+			<li><asp:HyperLink NavigateUrl="/directorio/empresas.aspx" Text="Directorio de Empresas" runat="server"/></li>
+			<li><asp:HyperLink NavigateUrl="/crea/opirtunidades.aspx" Text="Oportunidades Académicas" runat="server"/></li>
+			<li><asp:HyperLink NavigateUrl="/crea/javerianitos.aspx" Text="Javerianitos" runat="server"/></li>
+			<li><asp:HyperLink NavigateUrl="/crea/enlaces.aspx" Text="Enlaces de interés" runat="server"/></li>
+			<li><asp:HyperLink NavigateUrl="/crea/servicios.aspx" Text="Trámites y Servicios" runat="server"/></li>
+		</ul>
+	</li>
+	<li><asp:HyperLink NavigateUrl="/ing/boleting" Text=".ING" runat="server"/></li>
+	<li><asp:HyperLink NavigateUrl="/ing/contacto" Text="Contáctenos" runat="server"/></li>
+</ul>
