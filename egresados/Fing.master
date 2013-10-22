@@ -1,0 +1,32 @@
+<%@ Master Language="C#" Inherits="Fing" %>
+<%@ Register TagPrefix="include" TagName="head" Src="~/inc/pagehead.ascx" %>
+<%@ Register TagPrefix="include" TagName="Footer" Src="~/inc/Footer.ascx" %>
+<%@ Register TagPrefix="include" TagName="Header" Src="~/inc/Header.ascx" %>
+<%@ Register TagPrefix="include" TagName="TopArea" Src="~/inc/TopArea.ascx" %>
+<%@ Register TagPrefix="include" TagName="LeftArea" Src="~/inc/LeftArea.ascx" %>
+<%@ Register TagPrefix="include" TagName="RightArea" Src="~/inc/RightArea.ascx" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+<meta charset="utf-8" />
+<title>Facultad de Ingeniería - Oficina de relaciones</title>
+<include:head runat="server" id="head" />
+</head>
+<body class="<%=Fing.docclass%>"><div id="wrapper">
+	<include:Header runat="server" id="Header" />
+	<div id="body">
+		<div id="main">
+			<article id="content"><form runat="server"><asp:ContentPlaceHolder id="Main" runat="server" /></form>
+			</article>
+		</div>
+<% if(Fing.display_top) { %><aside id="top_area"><include:TopArea runat="server" id="TopArea" /></aside><% } %>
+<% if(Fing.display_left) { %><aside id="left_area"><include:LeftArea runat="server" id="LeftArea" /></aside><% } %>
+<% if(Fing.display_right) { %><aside id="right_area"><include:RightArea runat="server" id="RightArea" /></aside><% }%>
+	</div>
+	<footer id="footer">
+		<include:Footer runat="server" id="Footer" />
+	</footer>
+</div>
+</body>
+<script src="./js/f-dev.js"></script>
+</html>
