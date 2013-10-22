@@ -1,0 +1,37 @@
+/*  Style sheet for Oficina de Prácticas Profesionales, Relaciones con Empresa y Egresados
+ *  for Pontificia Universidad Javeriana, Bogotá
+ *
+ *  file:      f-fancy.css
+ *  design by: Interlecto
+ *  copyleft:  2013
+ *
+ *  This is the secondary style CSS file, describing which add some specific CSS3 styling
+ *  such as alpha channels, box-shadow and rounded boxes.
+ *
+ */
+
+/*
+#wrapper{border-radius:1ex;box-shadow:1ex 1ex 2ex rgba(0,0,0,.6),inset -3px -3px 3px rgba(0,0,0,.25),inset 3px 3px 3px rgba(255,255,255,.375)}
+ */
+input,
+input[type=text],
+input[type=password],
+.text_style {
+	border-radius: .6ex
+}
+
+select,
+input[type=submit],
+input[type=reset],
+input[type=botton]
+,.botton {
+	border-radius: .8ex;
+	box-shadow: .3ex .3ex .5ex rgba(0,0,0,.6),
+		inset -.3ex -.3ex .3ex rgba(0,0,0,.25),
+		inset .3ex .3ex .3ex rgba(255,255,255,.375)
+}
+/*
+#content{border-radius:1ex;box-shadow:inset .3ex .3ex .4ex rgba(0,0,0,.25),inset -.3ex -.3ex .3ex rgba(255,255,255,.375)}
+ */
+#banner_texto{background-color:rgba(100,150,200,.6)}
+#banner_texto *{background-color:transparent}

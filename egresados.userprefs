@@ -1,19 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="egresados/css/general.css">
+  <MonoDevelop.Ide.Workbench ActiveDocument="egresados/inc/SideMenu.ascx">
     <Files>
       <File FileName="egresados/Default.aspx" Line="8" Column="1" />
-      <File FileName="egresados/css/general.css" Line="86" Column="91" />
-      <File FileName="egresados/Registro.ascx" Line="13" Column="53" />
-      <File FileName="egresados/faq.aspx" Line="3" Column="32" />
-      <File FileName="egresados/ayuda.aspx" Line="4" Column="31" />
-      <File FileName="egresados/empresas.aspx" Line="5" Column="1" />
-      <File FileName="egresados/inc/Search.ascx" Line="5" Column="19" />
-      <File FileName="egresados/javeriana.master" Line="14" Column="1" />
-      <File FileName="egresados/Default.aspx.cs" Line="28" Column="29" />
-      <File FileName="egresados/directorio.aspx" Line="5" Column="32" />
-      <File FileName="egresados/actualizacion.aspx" Line="6" Column="1" />
-      <File FileName="egresados/ayuda_empresas.aspx" Line="1" Column="121" />
+      <File FileName="egresados/inc/Banner.ascx" Line="9" Column="1" />
+      <File FileName="egresados/inc/Footer.ascx" Line="1" Column="1" />
+      <File FileName="egresados/inc/MenuBar.ascx" Line="2" Column="1" />
+      <File FileName="egresados/inc/Search.ascx" Line="2" Column="1" />
+      <File FileName="egresados/inc/SideMenu.ascx" Line="23" Column="6" />
+      <File FileName="egresados/inc/Search.ascx.cs" Line="13" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

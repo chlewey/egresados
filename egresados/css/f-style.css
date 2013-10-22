@@ -1,0 +1,75 @@
+/*  Style sheet for Oficina de Prácticas Profesionales, Relaciones con Empresa y Egresados
+ *  for Pontificia Universidad Javeriana, Bogotá
+ *
+ *  file:      f-style.css
+ *  design by: Interlecto
+ *  copyleft:  2013
+ *
+ *  This is the main style CSS file, describing how the elements look like in terms of
+ *  fonts, colors, etc.
+ *
+ *  This style is inspired by Bootstrap.
+ */
+
+/*
+ * Estilos generales
+ */
+*{font:inherit;background-color:inherit}
+body{font-family:Helv,Helvetica,Arial,sans-serif;font-size:11pt;font-style:normal;font-weight:normal;color:#123;background-color:white}
+:link,:visited{color:#39c;text-decoration:none}
+:link:hover,:visited:hover{color:#09f;text-decoration:underline}
+h1,h2,h3{font-family:Verdana,Helv,Helvetica,Arial,sans-serif;font-weight:bold}
+h4,h5,h6{font-weight:bold}
+h1{font-size:1.75em}
+h2{font-size:1.35em}
+h3{font-size:1.15em}
+h4{font-size:1.00em}
+h5{font-size:0.90em}
+h6{font-size:0.80em}
+a.area{display:block;width:100%;height:100%}
+a.area:hover{text-decoration:none}
+
+input,input[type=text],input[type=password],.text_style{border:thin inset #05a;padding:2px 1px;background:#eee}
+input[type=submit],input[type=reset],input[type=botton],.botton{border-style:outset;background-color:#dee}
+select{border-style:thin outset #05a;padding:2px 1px;background-color:#dee}
+
+/*
+ * Estilos de la plantilla general
+ */
+#wrapper{background-color:transparent}
+	#header{}
+		#sitenotice{}
+			#sitename{font-size:0;text-indent:-999em;background:transparent url('../media/logo-h-360.png') no-repeat 50% 50%}
+			#sitemotto{text-transform:uppercase;font-size:9pt;font-weight:bold;text-align:center;background-color:#146}
+			#sitemotto a.area{color:#fff}
+		#section{}
+			#section-upper{text-align:right;font-size:20px;line-height:25px;font-weight:normal}
+			#section-lower{text-align:right;font-size:20px;line-height:25px;font-weight:bold}
+		#internal{font-size:.7em}
+	#body{}
+		#main{}
+			#content{font-size:12pt}
+		#top_area{}
+			#top-bar{background-color:#123;color:#eee}#top-bar a{color:#aaa}
+				#search{}
+				#TopMenu{}
+			#header_area{}
+				#MenuBar{background:white}
+					#MenuBar ul{border:thin outset #05a}
+			#banner_area{}
+				#banner{background-color:#555}
+					#banner a{text-align:center}
+						#banner img{}
+					#banner_texto{background-color:#abc}
+						#banner_title{font-size:13pt;color:white}
+						#banner .lang{}
+		#left_area{}
+		#right_area{}
+	#footer{text-align:center}
+		#footer:before{display:block;margin:1ex 10%;border:thin inset #096fa2;content:'';opacity:.6}
+
+/*
+ * In #Content
+ */
+#content h1,#content p{margin:0 0 1ex}
+#content h2,#content h3,#content h4,#content h5,#content h6{margin:1em 0 1ex}
