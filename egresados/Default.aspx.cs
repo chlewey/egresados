@@ -7,6 +7,13 @@ namespace egresados
 {
 	public partial class Default : System.Web.UI.Page
 	{
+		protected void Page_Load(object sender, EventArgs e)
+		{
+			Fing.display_top = true;
+			Fing.display_left = true;
+			Fing.display_right = false;
+			Fing.big_header = true;
+		}
 		
 		public virtual void empresasClicked (object sender, EventArgs args)
 		{

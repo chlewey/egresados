@@ -14,15 +14,15 @@ public partial class Fing {
 	
 	protected System.Web.UI.UserControl head;
 	
-	protected System.Web.UI.UserControl Header;
+	protected bolsaemp.Header Header;
 	
 	protected System.Web.UI.WebControls.ContentPlaceHolder Main;
 	
-	protected System.Web.UI.UserControl TopArea;
+	protected bolsaemp.TopArea TopArea;
 	
-	protected System.Web.UI.UserControl LeftArea;
+	protected bolsaemp.LeftArea LeftArea;
 	
-	protected System.Web.UI.UserControl RightArea;
+	protected bolsaemp.RightArea RightArea;
 	
-	protected bolsaemp.Footer Footer;
+	protected egresados.Footer Footer;
 }

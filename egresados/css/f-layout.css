@@ -25,7 +25,7 @@ body{}
 /*-common-*/.clearafter:after{display:block;content:' ';height:0;clear:both}
 /*-common-*/ul{list-style-type:none}
 /*-common-*/ul li{display:block}
-#wrapper{position:relative;z-index:0;margin:45px auto 5px;width:1080px}
+#wrapper{position:relative;z-index:0;margin:45px auto 5px;width:1080px;overflow:hidden}
 	#header{position:relative;height:140px}
 	.big-header #header{height:290px}
 		#sitenotice{float:left}
@@ -51,34 +51,34 @@ body{}
 					#banner>a{display:block;height:150px}
 						#banner img{}
 				#banner_texto{position:absolute;bottom:0;padding:0 60px;height:25px;left:0;right:0}
-					#banner_title{float:left;padding-left:5px}
+					#banner_title{position:absolute;top:0;left:5px;right:40px;height:25px;overflow:hidden}
 					#banner_texto .lang{float:right;padding:5px}
 		#left_area{width:250px}
 		#right_area{width:210px}
 	#body:after{display:block;content:' ';height:0;clear:both}
 	#footer:before{clear:both}
 	#footer{position:relative}
-/*-menu-*/	.MenuBarHorizontal{}
-/*-menu-*/	.MenuBarHorizontal li{position:relative;float:left}
-/*-menu-*/	.MenuBarHorizontal a:hover{text-decoration:none;background-color:rgba(200,200,200,.5)}
-/*-menu-*/	.MenuBarHorizontal li a{display:block;padding:5px}
-/*-menu-*/	.MenuBarHorizontal li a.MenuBarHorizontal:after{content:"\0000a0\0025be";display:block;float:right}
-/*-menu-*/	.MenuBarHorizontal li:hover a.MenuBarHorizontal:after{content:"\0000a0\0025c2"}
-/*-menu-*/	.MenuBarHorizontal li li a.MenuBarItemSubmenu:after{content:"\0000a0\0025b8";float:right}
-/*-menu-*/	.MenuBarHorizontal li li:hover a.MenuBarItemSubmenu:after{content:"\0000a0\0025b4"}
-/*-menu-*/	.MenuBarHorizontal ul{position:absolute;left:-999em;width:auto}
-/*-menu-*/	.MenuBarHorizontal ul li{float:none}
-/*-menu-*/	.MenuBarHorizontal ul li a{padding:2px;width:116px}
-/*-menu-*/	.MenuBarHorizontal ul li a.anchoPos{width:250px}
-/*-menu-*/	.MenuBarHorizontal li:hover>ul{left:10px}
-/*-menu-*/	.MenuBarHorizontal li li:hover>ul{left:120px;top:3px}
+/*-menu-*/	.menubar{}
+/*-menu-*/	.menubar li{position:relative;float:left}
+/*-menu-*/	.menubar a:hover{text-decoration:none;background-color:rgba(200,200,200,.5)}
+/*-menu-*/	.menubar li a{display:block;padding:5px}
+/*-menu-*/	.menubar li .submenu-1:after{content:"\0000a0\0025be";display:block;float:right}
+/*-menu-*/	.menubar li:hover .submenu-1:after{content:"\0000a0\0025c2"}
+/*-menu-*/	.menubar li li .submenu-2:after{content:"\0000a0\0025b8";float:right}
+/*-menu-*/	.menubar li li:hover .submenu-2:after{content:"\0000a0\0025b4"}
+/*-menu-*/	.menubar ul{position:absolute;z-index:3;left:-999em;width:auto}
+/*-menu-*/	.menubar ul li{float:none}
+/*-menu-*/	.menubar ul li a{padding:2px;width:116px}
+/*-menu-*/	.menubar ul li a.wide{width:250px}
+/*-menu-*/	.menubar li:hover>ul{left:10px}
+/*-menu-*/	.menubar li li:hover>ul{left:120px;top:3px}
 
-/*-menu-*/	.SideMenu{}
-/*-menu-*/	.SideMenu ul{padding-left:1em}
-/*-menu-*/	.SideMenu li{}
-/*-menu-*/	.SideMenu a{display:block;padding:3px 0}
-/*-menu-*/	.SideMenu a:hover{text-decoration:none;background-color:rgba(200,200,200,.5)}
-/*-menu-*/	.SideMenu a:before{content:"\0025b8";width:1em;display:block;float:left}
+/*-menu-*/	.sidemenu{}
+/*-menu-*/	.sidemenu ul{padding-left:1em}
+/*-menu-*/	.sidemenu li{}
+/*-menu-*/	.sidemenu a{display:block;padding:3px 0}
+/*-menu-*/	.sidemenu a:hover{text-decoration:none;background-color:rgba(200,200,200,.5)}
+/*-menu-*/	.sidemenu a:before{content:"\0025b8";width:1em;display:block;float:left}
 /*
  *  3 column layout
  */
@@ -87,13 +87,85 @@ body{}
 			.col-3 #content{margin-left:260px;margin-right:220px}
 		.col-3 #left_area{float:left}
 		.col-3 #right_area{position:absolute;top:5px;right:0;bottom:0;overflow:hidden}
-
+/*
+ *  2 column layout - only left sidebar
+ */
 	.col-2l #body{}
 		.col-2l #main{float:right;margin-left:-250px;width:100%}
 			.col-2l #content{margin-left:260px}
 		.col-2l #left_area{float:left}
-
+/*
+ *  2 column layout - only right sidebar
+ */
 	.col-2r #body{}
 		.col-2r #main{float:left;margin-right:-210px;width:100%}
 			.col-2r #content{margin-right:220px}
 		.col-2r #right_area{float:right}
+/*
+ *  responsiveness: 900~1080 px
+ */
+@media screen and (max-width: 1080px) {
+	#wrapper{width:auto}
+	#content{float:none!important}
+	#left_area{width:240px;clear:left!important}
+	#right_area{width:200px;clear:right!important}
+	.col-3 #content{margin-left:245px;margin-right:205px}
+	.col-2l #content{margin-left:245px}
+	.col-2r #content{margin-right:205px}
+}
+/*
+ *  responsiveness: 445~900 px
+ */
+@media screen and (max-width: 900px) {
+	#main{margin:0!important;float:none!important}
+	#content{margin:0!important}
+	.col-3 #left_area{width:54%}
+	.col-3 #right_area{position:relative;bottom:auto;float:right;width:45%}
+	.col-2l #left_area{width:auto}
+	.col-2r #right_area{width:auto}
+	#banner_texto{padding:0}
+}
+/*
+ *  responsiveness: ~750 px
+ */
+@media screen and (max-width: 750px) {
+	#header{height:240px}
+	.big-header #header{height:390px}
+	#header_area{left:0}
+	#top-bar ul{border:thin outset #05a}
+	#top-bar:hover #TopMenu{left:15px}
+	#top-bar:after{display:block;position:absolute;left:10px;top:10px;width:auto;content:'Menú \0025be'}
+	#top-bar:hover:after{content:'Menú \0025c2'}
+	#TopMenu{position:absolute;top:30px;left:-9999em}
+	#TopMenu li{float:none;width:120px}
+	#TopMenu li a{padding:2px}
+	#TopMenu li .submenu-1:after{content:"\0000a0\0025b8";display:block;float:right}
+	#TopMenu li:hover .submenu-1:after{content:"\0000a0\0025b4"}
+	#TopMenu li:hover ul{top:5px;left:120px}
+}
+/*
+ *  responsiveness: ~600 px
+ */
+@media screen and (max-width: 600px) {
+	#sitenotice{float:none}
+	#sitename{width:auto}
+	#sitemotto{width:auto}
+	#section{display:none}
+	#top-bar:hover #search{right:15px}
+	#top-bar:before{display:block;position:absolute;right:10px;top:10px;width:auto;content:'\0025be\0000a0buscar'}
+	#top-bar:hover:before{content:'\0025b8\0000a0buscar'}
+	#search{position:absolute;top:30px;right:-9999em;width:300px;padding:3px;border:thin outset #05a}
+}
+/*
+ *  responsiveness: ~445 px
+ */
+@media screen and (max-width: 445px) {
+	#left_area{width:auto!important;float:none!important}
+	#right_area{width:auto!important;float:none!important}
+	#search{width:180px}
+}
+/*
+ *  responsiveness: ~360 px
+ */
+@media screen and (max-width: 360px) {
+}

@@ -1,4 +1,4 @@
-<%@ Page Language="C#" Inherits="egresados.ayuda" MasterPageFile="~/javeriana.master" Title="Problemas para entrar" %>
+<%@ Page Language="C#" Inherits="egresados.ayuda" MasterPageFile="~/Fing.master" Title="Problemas para entrar" %>
 <%@ MasterType VirtualPath="~/javeriana.master" %>
 <asp:Content ContentPlaceHolderID="Main" ID="MainContent" runat="server">
 	<h1>Directorio de egresados — ayuda para el ingreso</h1>

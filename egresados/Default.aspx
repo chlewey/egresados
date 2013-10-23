@@ -1,4 +1,4 @@
-<%@ Page Language="C#" MasterPageFile="~/javeriana.master" Inherits="egresados.Default" Title="Directorio de egresados" %>
+<%@ Page Language="C#" MasterPageFile="~/Fing.master" Inherits="egresados.Default" Title="Directorio de egresados" %>
 <%@ Register TagPrefix="include" TagName="Registro" Src="~/Registro.ascx" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Main" Runat="Server">
 	<h1>Coordinación de relaciones con egresados</h1>

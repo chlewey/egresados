@@ -1,4 +1,4 @@
-<%@ Page Language="C#" Inherits="egresados.directorio" MasterPageFile="~/javeriana.master" Title="Consultar directorio" %>
+<%@ Page Language="C#" Inherits="egresados.directorio" MasterPageFile="~/Fing.master" Title="Consultar directorio" %>
 <%@ MasterType VirtualPath="~/javeriana.master" %>
 <%@ Register TagPrefix="include" TagName="Registro" Src="~/Registro.ascx" %>
 <asp:Content ContentPlaceHolderID="Main" ID="MainContent" runat="server">

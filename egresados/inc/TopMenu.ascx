@@ -1,4 +1,4 @@
-<%@ Control Language="C#" Inherits="bolsaemp.TopMenu" %>
+<%@ Control Language="C#" Inherits="egresados.TopMenu" %>
 <ul id="TopMenu" class="menubar">
 	<li><asp:HyperLink NavigateUrl="/ing/" Text="Universidad" runat="server"/></li>
 	<li><asp:HyperLink NavigateUrl="/ing/" Text="Facultad" runat="server"/></li>

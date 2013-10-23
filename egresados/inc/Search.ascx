@@ -1,7 +1,7 @@
 <%@ Control Language="C#" Inherits="egresados.Search" %>
  
 <form runat="server">
-	<div id="FormBusqueda">
+	<div id="search">
 		<label for="busUltraSearch" class="buscar">Buscar:</label>
 		<asp:TextBox id="busUltraSearch" runat="server"/>
 		<label for="buscar" class="buscar">en:</label>
